@@ -1,10 +1,7 @@
 server:
-  port: 8761
-
-eureka:
+  port: 8282
+eurka:
   client:
-    register-with-eureka: false
-    fetch-registry: false
-  spring:
-  application:
-    name: service-registry
+   serviceUrl:
+    deafaultZone: http://localhost:8761/eureka/
+    #here we give our eurka server path where we want register our service.
