@@ -1,13 +1,14 @@
 server:
   port: 8282
-   datasource:
+   spring:
+     datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/departmentServices
     username: root
     password: Akash3011@
 
 # hibernate Configuration
-  spring:
+  
     jpa:
     hibernate:
       ddl-auto: update
