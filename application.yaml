@@ -1,21 +1,6 @@
 server:
   port: 8282
-   spring:
-     datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/departmentServices
-    username: root
-    password: Akash3011@
-
-# hibernate Configuration
   
-    jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQLDialect
         
 eurka:
   client:
